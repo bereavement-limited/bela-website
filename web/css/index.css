@@ -1,0 +1,33 @@
+#navBar {
+    display: block;
+    text-align: center;
+    border-style: groove;
+    border-color: purple;
+    background-image: url(../images/marb039.gif);
+    background-repeat: repeat;
+    left: 0px;
+    top: 0px;
+}
+
+#title {
+    display: block;
+    text-align: center;
+    color: black;
+    margin-top: 10px;
+    font-size: 50px;
+    font-family: "Didot";
+    text-shadow: 0 0 15px white;
+}
+
+.navLink {
+    font-size: 20px;
+    margin: 15px;
+    display: inline-block;
+    color: red;
+    text-shadow: 1px 1px pink;   
+}
+
+.navLink:hover {
+    color: whitesmoke;
+}
+

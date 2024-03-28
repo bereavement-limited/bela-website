@@ -1,0 +1,32 @@
+body{
+    background-image: url(../images/about_texture.gif);
+}
+
+a:link {
+    color: lime; 
+}
+
+a:visited {
+    color: plum;
+}
+
+#content {
+    position: relative;
+    background-color: black;
+    width: 80%;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#paragraph {
+    position: absolute;
+    font-family: "Garamond";
+    color: red;
+    position: relative;
+    text-align: center;
+    margin: 50px;
+    font-size: 40px;
+    padding: 20px;
+}
+
